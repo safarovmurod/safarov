@@ -1,0 +1,47 @@
+{
+  "settingsMissing": [
+    "inlineChat.holdToSpeech",
+    "accessibility.voice.autoSynthesize",
+    "accessibility.voice.keywordActivation",
+    "accessibility.voice.speechTimeout",
+    "accessibility.signals.voiceRecordingStarted",
+    "accessibility.signals.voiceRecordingStopped",
+    "files.watcherExclude",
+    "search.exclude"
+  ],
+  "settingsDifferent": [
+    "jellyCursor.workbenchHtmlPath",
+    "editor.inlineSuggest.enabled",
+    "terminal.integrated.profiles.windows",
+    "inlineChat.holdToSpeech",
+    "accessibility.voice.autoSynthesize",
+    "accessibility.voice.keywordActivation",
+    "accessibility.voice.speechTimeout",
+    "accessibility.signals.voiceRecordingStarted",
+    "accessibility.signals.voiceRecordingStopped",
+    "files.watcherExclude",
+    "search.exclude"
+  ],
+  "customFilesDifferent": [
+    {
+      "id": "mansur.ai-structure-reviewer",
+      "oldPresent": true,
+      "sameRuntime": true
+    },
+    {
+      "id": "iranon.jelly-cursor",
+      "oldPresent": true,
+      "sameRuntime": true
+    },
+    {
+      "id": "mansur.runtime-monitor",
+      "oldPresent": true,
+      "sameRuntime": true
+    },
+    {
+      "id": "mansur.mansur-inline-autocomplete",
+      "oldPresent": true,
+      "sameRuntime": false
+    }
+  ]
+}

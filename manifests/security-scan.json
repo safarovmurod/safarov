@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "localTextFilesScanned": 254,
+  "knownSourceSecretValuesCompared": 5,
+  "secretMatches": 0,
+  "sourceHomePathMatches": 0,
+  "method": "Allowlist capture + exact-value secret scan + high-confidence token patterns; official binary/VSIX provenance and hashes verified separately",
+  "excluded": [
+    "auth files",
+    "cookies",
+    "sessions",
+    "source state databases",
+    "source logs",
+    "conversations",
+    "workspace history",
+    "target test backups",
+    "download cache"
+  ],
+  "limitations": "No static scanner proves absence of every conceivable encoded secret; source account/session trees were never included."
+}

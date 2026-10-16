@@ -1,0 +1,46 @@
+[
+  {
+    "relativePath": "vs/base/parts/sandbox/electron-browser/preload.js",
+    "matchesProductChecksum": true
+  },
+  {
+    "relativePath": "vs/workbench/workbench.desktop.main.js",
+    "matchesProductChecksum": true
+  },
+  {
+    "relativePath": "vs/workbench/workbench.desktop.main.css",
+    "matchesProductChecksum": true
+  },
+  {
+    "relativePath": "vs/workbench/api/node/extensionHostProcess.js",
+    "matchesProductChecksum": true
+  },
+  {
+    "relativePath": "vs/code/electron-browser/workbench/workbench.html",
+    "matchesProductChecksum": true
+  },
+  {
+    "relativePath": "vs/code/electron-browser/workbench/workbench.js",
+    "matchesProductChecksum": true
+  },
+  {
+    "relativePath": "vs/code/electron-browser/workbench/workbench-jetski-agent.html",
+    "matchesProductChecksum": true
+  },
+  {
+    "relativePath": "vs/code/electron-browser/workbench/jetskiAgent.js",
+    "matchesProductChecksum": true
+  },
+  {
+    "relativePath": "jetskiAgent/main.js",
+    "matchesProductChecksum": true
+  },
+  {
+    "relativePath": "jetskiMain.tailwind.css",
+    "matchesProductChecksum": true
+  },
+  {
+    "relativePath": "tw-base.tailwind.css",
+    "matchesProductChecksum": true
+  }
+]

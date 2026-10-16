@@ -1,0 +1,51 @@
+{
+  "capturedAt": "2026-09-20",
+  "product": {
+    "product": "Antigravity IDE",
+    "ideVersion": "2.5.5",
+    "coreVersion": "1.107.0",
+    "commit": "ecfbad74d93962fc8ca485d93ab9b4f3d4cb6cf8",
+    "electronVersion": "39.2.3",
+    "architecture": "x64",
+    "minWindowsBuild": 19041,
+    "workbenchRelativePath": "resources/app/out/vs/code/electron-browser/workbench/workbench.html",
+    "cleanWorkbenchNormalizedSha256": "70d8791af503a65db3d04f0b6a1e550a5225b19bb87a10174452bfe189bf4ac4",
+    "sourceWorkbenchSha256": "e78c09aa23582fc7e9fc39a3935d95d76f6f465b3183bec1bd5b65b0347ae776",
+    "jellySha256": "27dbd1e42eb8f4fcd965ae114336860ea0f3279aa3551898c7f0bda5c0093c22",
+    "unknownVersionPolicy": "STOP before modifications; no blind patch",
+    "arm64": "not validated; fail closed"
+  },
+  "settingsCount": 208,
+  "keybindingsCount": 15,
+  "extensionsCount": 24,
+  "customExtensionsCount": 4,
+  "profile": "default; verified profile associations, no named profiles found",
+  "runningAtAudit": false,
+  "activationEvidence": "Real isolated IDE probes activate all four custom extensions and TypeScript service; renderer Ripple/theme/font/icon stylesheet and installed monitor coordinator behavior verified.",
+  "gemini": [
+    "GEMINI.md",
+    "config/rules/mansur.md",
+    "config/skills/mansur-practice/SKILL.md"
+  ],
+  "snippets": [],
+  "fontCount": 22,
+  "theme": "Dark+",
+  "icons": "material-icon-theme",
+  "disabledExtensions": [
+    {
+      "id": "google.antigravity"
+    }
+  ],
+  "opaqueStateNotExported": [],
+  "sourceIssues": [
+    "mansur.md missing required frontmatter; source log confirms parse failure",
+    "repair paths and inline repair require are source-specific",
+    "runtime browser discovery hardcodes system drive",
+    "source executable is unsigned; official downloaded installer authenticity must be verified independently"
+  ],
+  "sourceSecuritySettingsPreservedAsData": true,
+  "sourceRuleCharacters": 23650,
+  "globalRulesRuntimeStatus": "Original text preserved exactly across three referenced rule parts below 12000 characters each; authenticated AI consumption still unverified.",
+  "scopeCoverage": "Default Antigravity IDE profile, current registered extension runtime, user settings/keybindings, known global rules/skill, referenced effects/repair and selected fonts. No claim of inspecting private conversations, credentials or every unrelated disk folder.",
+  "allowlistedUiStateKeys": 36
+}

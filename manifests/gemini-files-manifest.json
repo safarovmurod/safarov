@@ -1,0 +1,28 @@
+{
+  "files": [
+    "GEMINI.md",
+    "config/rules/mansur-01.md",
+    "config/rules/mansur-02.md",
+    "config/rules/mansur-03.md",
+    "config/rules/mansur.md",
+    "config/skills/mansur-practice/SKILL.md"
+  ],
+  "originalSha256": "d58a355504dab3381831993edc730be0098a2cf9a877477a048fe090165e2eb0",
+  "originalCharacters": 23646,
+  "parts": [
+    {
+      "file": "config/rules/mansur-01.md",
+      "characters": 9788
+    },
+    {
+      "file": "config/rules/mansur-02.md",
+      "characters": 6877
+    },
+    {
+      "file": "config/rules/mansur-03.md",
+      "characters": 7062
+    }
+  ],
+  "contentPreservation": "Concatenating part bodies after removing frontmatter yields the complete original source text exactly.",
+  "referenceDocumentation": "https://antigravity.google/docs/rules-workflows"
+}

@@ -1,0 +1,649 @@
+{
+  "automatedPassed": 111,
+  "automatedFailed": 0,
+  "results": [
+    {
+      "name": "JSONC strings/comments/trailing commas",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Broken JSON rejected",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Path traversal refused",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Fresh configuration and workbench install in isolated target",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Rerun preserves unrelated target settings and avoids duplicate bindings/patch",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Auto-repair SKIP is idempotent",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Update-loss simulation restores missing patch and effect",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Unknown IDE build never patched",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Corrupt template rejected before workbench write",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Rollback restores original files and removes newly created files",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Interrupted journal recovery restores previous state",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Offline payload cache selects checksum-verified artifact",
+      "status": "PASS",
+      "suite": "installer-test-results.json"
+    },
+    {
+      "name": "Autocomplete registers only TypeScript/TSX",
+      "status": "PASS",
+      "suite": "runtime-test-results.json"
+    },
+    {
+      "name": "Tailwind exact 5000ms scheduling and output",
+      "status": "PASS",
+      "suite": "runtime-test-results.json"
+    },
+    {
+      "name": "CRUD exact 15000ms scheduling and Redux/Jotai output",
+      "status": "PASS",
+      "suite": "runtime-test-results.json"
+    },
+    {
+      "name": "Cancellation suppresses stale completion",
+      "status": "PASS",
+      "suite": "runtime-test-results.json"
+    },
+    {
+      "name": "Newer request suppresses older accepted output",
+      "status": "PASS",
+      "suite": "runtime-test-results.json"
+    },
+    {
+      "name": "Console store preserves real repeated events and Preserve Log/Clear",
+      "status": "PASS",
+      "suite": "runtime-test-results.json"
+    },
+    {
+      "name": "Real headless browser + source CDP client connect/reuse/reload/cleanup",
+      "status": "PASS",
+      "suite": "runtime-test-results.json"
+    },
+    {
+      "name": "Missing payload and wrong checksum fail before installation",
+      "status": "PASS",
+      "suite": "failure-test-results.json"
+    },
+    {
+      "name": "Unicode and long extension paths copy and rollback with identical bytes",
+      "status": "PASS",
+      "suite": "failure-test-results.json"
+    },
+    {
+      "name": "Real HTTPS downloader, pinned checksum and cache reuse",
+      "status": "PASS",
+      "suite": "failure-test-results.json"
+    },
+    {
+      "name": "Wrong download checksum fails after finite retry without publishing cache",
+      "status": "PASS",
+      "suite": "failure-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "IDE build and workbench compatibility",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Settings semantic SOURCE/TARGET comparison",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Keybindings, including duplicate prevention",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Gemini file GEMINI.md",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Gemini file config/rules/mansur-01.md",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Gemini file config/rules/mansur-02.md",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Gemini file config/rules/mansur-03.md",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Gemini file config/rules/mansur.md",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Gemini file config/skills/mansur-practice/SKILL.md",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Extension registry IDs, versions and uniqueness",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Custom runtime integrity: mansur.ai-structure-reviewer",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Custom runtime integrity: iranon.jelly-cursor",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Custom runtime integrity: mansur.runtime-monitor",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Custom runtime integrity: mansur.mansur-inline-autocomplete",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "All public extension runtime files match official artifacts",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "TypeScript-only autocomplete and exact delays",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Jelly effect exact bytes and exactly one injection",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Portable repair integrity and deployment paths",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Git Bash dependency",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Node dependency",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Enabled/disabled extension state",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Runtime browser available",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Source panel positions, pinned views, hidden views and sizes",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Credential-free MCP configuration and exact offline runtime",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Both local MCP servers actually initialized and executed a tool",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font FiraCode-Bold.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font FiraCode-Light.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font FiraCode-Medium.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font FiraCode-Regular.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font FiraCode-Retina.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font FiraCode-SemiBold.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-Bold.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-BoldItalic.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-ExtraBold.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-ExtraBoldItalic.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-ExtraLight.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-ExtraLightItalic.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-Italic.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-Light.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-LightItalic.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-Medium.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-MediumItalic.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-Regular.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-SemiBold.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-SemiBoldItalic.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-Thin.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Font JetBrainsMono-ThinItalic.ttf",
+      "reason": "Verified",
+      "suite": "full-config-test-results.json"
+    },
+    {
+      "name": "Prepare isolated runtime verification workspace",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "mansur.mansur-inline-autocomplete",
+      "version": "1.0.0",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "mansur.runtime-monitor",
+      "version": "1.1.0",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "mansur.ai-structure-reviewer",
+      "version": "1.1.0",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "iranon.jelly-cursor",
+      "version": "0.0.8",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "vscode.typescript-language-features",
+      "version": "1.0.0",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "typescript document",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "typescriptreact document",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "runtimeMonitor.connect",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "runtimeConsole.clear",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "runtimeRequests.reload",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "aiStructureReviewer.refresh",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "jellyCursor.showStatus",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "Live renderer has one Jelly layer and visible TypeScript editor",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "Live renderer Ripple creates, animates and removes its SVG circle",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "Live renderer source dark theme, font size and icon stylesheet",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "Live renderer probe execution",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "Live Runtime Monitor coordinator connects to local fixture",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "Live Runtime Monitor console and completed network response",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "Live Runtime Monitor refresh, one session and no duplicate events",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "Live Runtime Monitor clear and disconnect",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "Live Runtime Monitor probe execution",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "name": "Live probes leave target UI/storage database unchanged",
+      "status": "PASS",
+      "suite": "packaged-host-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "All PowerShell scripts parse",
+      "suite": "static-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "IDE and Git Authenticode publishers verified; wrong publisher rejected",
+      "suite": "static-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "VERIFY.cmd executes and preserves incomplete exit code 2",
+      "suite": "static-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "DIAGNOSTICS.cmd executes read-only with exit code 0",
+      "suite": "static-test-results.json"
+    },
+    {
+      "status": "PASS",
+      "name": "Source execution policy remains RemoteSigned",
+      "suite": "static-test-results.json"
+    },
+    {
+      "name": "Missing-browser branch installs official SHA256-pinned portable Chrome",
+      "status": "PASS",
+      "suite": "extras-test-results.json"
+    },
+    {
+      "name": "MCP merge preserves unrelated servers and target-only credentials",
+      "status": "PASS",
+      "suite": "extras-test-results.json"
+    },
+    {
+      "name": "MCP rerun is idempotent",
+      "status": "PASS",
+      "suite": "extras-test-results.json"
+    },
+    {
+      "name": "All offline MCP dependency files match bundled manifest",
+      "status": "PASS",
+      "suite": "extras-test-results.json"
+    },
+    {
+      "tools": 1,
+      "status": "PASS",
+      "toolCalled": "sequentialthinking",
+      "name": "Sequential Thinking MCP initialize/list/call",
+      "serverVersion": "2026.8.31",
+      "suite": "extras-test-results.json"
+    },
+    {
+      "tools": 29,
+      "status": "PASS",
+      "toolCalled": "list_pages",
+      "name": "Chrome DevTools MCP initialize/list/browser call",
+      "serverVersion": "1.9.0",
+      "suite": "extras-test-results.json"
+    },
+    {
+      "name": "All 36 source UI layout keys applied and verified",
+      "status": "PASS",
+      "suite": "ui-state-test-results.json"
+    },
+    {
+      "name": "UI migration preserves unrelated target storage and panels",
+      "status": "PASS",
+      "suite": "ui-state-test-results.json"
+    },
+    {
+      "name": "UI migration rerun preserves exact values and avoids duplicate views",
+      "status": "PASS",
+      "suite": "ui-state-test-results.json"
+    },
+    {
+      "name": "Source Runtime Console and AI Reviewer custom panel locations captured",
+      "status": "PASS",
+      "suite": "ui-state-test-results.json"
+    },
+    {
+      "name": "Rule parts obey documented 12000-character limit",
+      "status": "PASS",
+      "suite": "rules-test-results.json"
+    },
+    {
+      "name": "All original rule text preserved exactly across referenced parts",
+      "status": "PASS",
+      "suite": "rules-test-results.json"
+    },
+    {
+      "name": "Full target verification passes local checks while retaining required account gate",
+      "status": "PASS",
+      "suite": "final-gate-test-results.json"
+    }
+  ],
+  "skipped": [
+    {
+      "name": "Fresh Windows vendor installer execution",
+      "reason": "No disposable second Windows machine/VM available; source installation was not replaced."
+    },
+    {
+      "name": "Older IDE vendor update and complete vendor rollback",
+      "reason": "No disposable old-version target. Prior binary directories are retained, but vendor registry/uninstall changes are not transactionally restored."
+    },
+    {
+      "name": "Windows 10, ARM64, genuinely non-C system drive, low-RAM hardware",
+      "reason": "Only Windows 11 x64 host available. Unicode/long filesystem paths were tested. ARM64/x86 are deliberately rejected."
+    },
+    {
+      "name": "Authenticated Gemini rule consumption",
+      "reason": "No account/session copied; file presence and frontmatter are not proof of prompt injection. Original rule text is now split losslessly into three referenced parts below the documented 12000-character limit; authenticated consumption remains unverified."
+    },
+    {
+      "name": "Every display/DPI and every panel interaction",
+      "reason": "Real renderer Ripple/theme/font/icon checks and installed Runtime Monitor coordinator tests passed on this host; other physical displays and every panel interaction remain untested."
+    },
+    {
+      "name": "Target font registration installation",
+      "reason": "Official bytes validated; target registry font installation was not executed against the source account."
+    },
+    {
+      "name": "GitHub MCP authorization",
+      "reason": "Both credential-free MCP servers passed actual initialize/list/tool calls. GitHub requires a target credential and was not authorized by copying source secrets."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "name": "chrome-devtools-mcp",
+    "transport": "stdio",
+    "credentialRequired": false,
+    "keys": [
+      "$typeName",
+      "command",
+      "args",
+      "env"
+    ],
+    "safeStructure": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.9.0"
+      ],
+      "disabled": true,
+      "env": {}
+    },
+    "status": "OFFLINE RUNTIME INSTALLED; INITIALIZE, TOOLS/LIST AND TOOL CALL VERIFIED",
+    "resolvedPackageVersion": "1.9.0",
+    "sourceVersion": "unversioned latest in source config; active installed version unverified",
+    "officialSource": "https://registry.npmjs.org/chrome-devtools-mcp/1.9.0",
+    "targetConfiguration": "Absolute target Node/runtime/browser paths generated automatically; enabled. Existing unrelated servers and GitHub credentials preserved."
+  },
+  {
+    "name": "github-mcp-server",
+    "transport": "http",
+    "credentialRequired": true,
+    "keys": [
+      "serverUrl",
+      "headers"
+    ],
+    "safeStructure": {
+      "serverUrl": "https://api.githubcopilot.com/mcp/",
+      "disabled": true,
+      "headers": {
+        "Authorization": "${SECRET_REQUIRED}"
+      }
+    },
+    "status": "CONFIGURED - CREDENTIAL REQUIRED",
+    "officialSource": "https://api.githubcopilot.com/mcp/"
+  },
+  {
+    "name": "sequential-thinking",
+    "transport": "stdio",
+    "credentialRequired": false,
+    "keys": [
+      "$typeName",
+      "command",
+      "args",
+      "env"
+    ],
+    "safeStructure": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking@2026.8.31"
+      ],
+      "disabled": true,
+      "env": {}
+    },
+    "status": "OFFLINE RUNTIME INSTALLED; INITIALIZE, TOOLS/LIST AND TOOL CALL VERIFIED",
+    "resolvedPackageVersion": "2026.8.31",
+    "sourceVersion": "unversioned in source config; active installed version unverified",
+    "officialSource": "https://registry.npmjs.org/@modelcontextprotocol/server-sequential-thinking/2026.8.31",
+    "targetConfiguration": "Absolute target Node/runtime/browser paths generated automatically; enabled. Existing unrelated servers and GitHub credentials preserved."
+  }
+]

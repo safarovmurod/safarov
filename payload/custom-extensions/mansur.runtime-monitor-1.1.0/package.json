@@ -1,0 +1,239 @@
+{
+  "name": "runtime-monitor",
+  "displayName": "Runtime Monitor",
+  "description": "Runtime Console and Network DevTools panel for React, Vite and web apps in Antigravity IDE",
+  "version": "1.1.0",
+  "publisher": "mansur",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Debuggers",
+    "Linters",
+    "Other"
+  ],
+  "keywords": [
+    "console",
+    "network",
+    "devtools",
+    "runtime",
+    "cdp",
+    "react",
+    "vite"
+  ],
+  "activationEvents": [
+    "onView:runtimeConsole.view",
+    "onView:runtimeRequests.view",
+    "onCommand:runtimeConsole.show",
+    "onCommand:runtimeRequests.show",
+    "onCommand:runtimeMonitor.connect",
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "panel": [
+        {
+          "id": "runtimeConsole",
+          "title": "Консоль",
+          "icon": "$(terminal)"
+        },
+        {
+          "id": "runtimeRequests",
+          "title": "Запросы",
+          "icon": "$(globe)"
+        }
+      ]
+    },
+    "views": {
+      "runtimeConsole": [
+        {
+          "type": "webview",
+          "id": "runtimeConsole.view",
+          "name": "Консоль"
+        }
+      ],
+      "runtimeRequests": [
+        {
+          "type": "webview",
+          "id": "runtimeRequests.view",
+          "name": "Запросы"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "runtimeConsole.show",
+        "title": "Консоль: Показать панель",
+        "category": "Консоль"
+      },
+      {
+        "command": "runtimeRequests.show",
+        "title": "Запросы: Показать панель",
+        "category": "Запросы"
+      },
+      {
+        "command": "runtimeMonitor.connect",
+        "title": "Подключить",
+        "category": "Runtime Monitor",
+        "icon": "$(play)",
+        "tooltip": "Запустить / переподключить headless runtime"
+      },
+      {
+        "command": "runtimeMonitor.disconnect",
+        "title": "Отключиться",
+        "category": "Runtime Monitor",
+        "icon": "$(debug-stop)"
+      },
+      {
+        "command": "runtimeConsole.clear",
+        "title": "Очистить консоль",
+        "category": "Консоль",
+        "icon": "$(clear-all)"
+      },
+      {
+        "command": "runtimeRequests.clear",
+        "title": "Очистить запросы",
+        "category": "Запросы",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "runtimeRequests.reload",
+        "title": "Перезагрузить страницу",
+        "category": "Запросы",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "runtimeConsole.reload",
+        "title": "Перезагрузить страницу",
+        "category": "Консоль",
+        "icon": "$(refresh)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "runtimeMonitor.connect",
+          "when": "(view == runtimeConsole.view || view == runtimeRequests.view) && !runtimeMonitor.connected",
+          "group": "navigation@1"
+        },
+        {
+          "command": "runtimeMonitor.disconnect",
+          "when": "(view == runtimeConsole.view || view == runtimeRequests.view) && runtimeMonitor.connected",
+          "group": "navigation@1"
+        },
+        {
+          "command": "runtimeConsole.clear",
+          "when": "view == runtimeConsole.view",
+          "group": "navigation@2"
+        },
+        {
+          "command": "runtimeRequests.reload",
+          "when": "view == runtimeRequests.view",
+          "group": "navigation@2"
+        },
+        {
+          "command": "runtimeRequests.clear",
+          "when": "view == runtimeRequests.view",
+          "group": "navigation@3"
+        },
+        {
+          "command": "runtimeConsole.reload",
+          "when": "view == runtimeConsole.view",
+          "group": "navigation@2"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Runtime Monitor",
+      "properties": {
+        "runtimeMonitor.devUrl": {
+          "type": "string",
+          "default": "",
+          "description": "URL dev-сервера (например, http://localhost:5173). Если пусто, определяется автоматически."
+        },
+        "runtimeMonitor.browser": {
+          "type": "string",
+          "enum": [
+            "auto",
+            "chrome",
+            "edge"
+          ],
+          "default": "auto",
+          "description": "Браузер для запуска отдельного изолированного сеанса отладки."
+        },
+        "runtimeMonitor.autoConnect": {
+          "type": "boolean",
+          "default": true,
+          "description": "Автоматически подключаться к браузеру при открытии панели."
+        },
+        "runtimeMonitor.preserveLog": {
+          "type": "boolean",
+          "default": false,
+          "description": "Сохранять логи и сетевые запросы при перезагрузке страницы."
+        },
+        "runtimeMonitor.maxConsoleEntries": {
+          "type": "number",
+          "default": 5000,
+          "description": "Максимальное количество записей в консоли."
+        },
+        "runtimeMonitor.maxNetworkEntries": {
+          "type": "number",
+          "default": 2000,
+          "description": "Максимальное количество запросов в сети."
+        },
+        "runtimeMonitor.showSensitiveValues": {
+          "type": "boolean",
+          "default": false,
+          "description": "Показывать чувствительные заголовки (Authorization, Cookie, Token) без маскирования."
+        },
+        "runtimeMonitor.slowRequestWarningMs": {
+          "type": "number",
+          "default": 1000,
+          "description": "Порог в миллисекундах для предупреждения о медленном запросе."
+        },
+        "runtimeMonitor.slowRequestCriticalMs": {
+          "type": "number",
+          "default": 3000,
+          "description": "Порог в миллисекундах для критически медленного запроса."
+        },
+        "runtimeMonitor.singleExpandedRequest": {
+          "type": "boolean",
+          "default": true,
+          "description": "Сворачивать предыдущий запрос при раскрытии нового в Запросах."
+        },
+        "runtimeMonitor.openOnError": {
+          "type": "boolean",
+          "default": false,
+          "description": "Автоматически открывать панель при возникновении ошибки JavaScript."
+        },
+        "runtimeMonitor.debugPort": {
+          "type": "number",
+          "default": 9222,
+          "description": "Порт удаленной отладки браузера (по умолчанию 9222)."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package --allow-missing-repository --skip-license"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/vscode": "^1.85.0",
+    "@types/ws": "^8.5.10",
+    "@vscode/vsce": "^2.24.0",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mansur/runtime-monitor"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pkief.material-icon-theme",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "christian-kohler.npm-intellisense",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "christian-kohler.path-intellisense",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "esbenp.prettier-vscode",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "ms-ceintl.vscode-language-pack-ru",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "edwinhuish.better-comments-next",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "usernamehw.errorlens",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "dbaeumer.vscode-eslint",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "anteprimorac.html-end-tag-labels",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "bradgashler.htmltagwrap",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "formulahendry.code-runner",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "formulahendry.auto-rename-tag",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "rangav.vscode-thunder-client",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "bradlc.vscode-tailwindcss",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "dsznajder.es7-react-js-snippets",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "glenn2223.live-sass",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "kisstkondoros.vscode-gutter-preview",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "ritwickdey.liveserver",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "streetsidesoftware.code-spell-checker",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  },
+  {
+    "id": "wix.vscode-import-cost",
+    "modifiedFiles": [],
+    "missingSourceFiles": [],
+    "officialRuntimeMatches": true
+  }
+]

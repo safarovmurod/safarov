@@ -1,0 +1,19 @@
+{
+  "name": "mansur-inline-autocomplete",
+  "displayName": "Mansur Global Inline Autocomplete",
+  "description": "Global quiet inline autocomplete: 5s for Tailwind and 15s for CRUD/State logic",
+  "version": "1.0.0",
+  "publisher": "mansur",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact"
+  ],
+  "main": "./extension.js"
+}

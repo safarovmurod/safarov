@@ -1,0 +1,15 @@
+{
+  "product": "Antigravity IDE",
+  "ideVersion": "2.5.5",
+  "coreVersion": "1.107.0",
+  "commit": "ecfbad74d93962fc8ca485d93ab9b4f3d4cb6cf8",
+  "electronVersion": "39.2.3",
+  "architecture": "x64",
+  "minWindowsBuild": 19041,
+  "workbenchRelativePath": "resources/app/out/vs/code/electron-browser/workbench/workbench.html",
+  "cleanWorkbenchNormalizedSha256": "70d8791af503a65db3d04f0b6a1e550a5225b19bb87a10174452bfe189bf4ac4",
+  "sourceWorkbenchSha256": "e78c09aa23582fc7e9fc39a3935d95d76f6f465b3183bec1bd5b65b0347ae776",
+  "jellySha256": "27dbd1e42eb8f4fcd965ae114336860ea0f3279aa3551898c7f0bda5c0093c22",
+  "unknownVersionPolicy": "STOP before modifications; no blind patch",
+  "arm64": "not validated; fail closed"
+}

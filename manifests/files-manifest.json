@@ -1,0 +1,1507 @@
+[
+  {
+    "path": "DIAGNOSTICS.cmd",
+    "size": 271,
+    "sha256": "53e9c247724622a49690393f410b4c83d1f7c012a682b07ce546b087592846dd"
+  },
+  {
+    "path": "manifests/compatibility.json",
+    "size": 735,
+    "sha256": "0e3ec1eab760fc55dd82c55050e1d036ea4553d89ed0ca54b1535ebf843fb0da"
+  },
+  {
+    "path": "manifests/extensions-manifest.json",
+    "size": 10784,
+    "sha256": "0f1469f755c6e5406617a8dbe648c1e73be37488b855ae43f26e07488fb10af3"
+  },
+  {
+    "path": "manifests/fonts-manifest.json",
+    "size": 5444,
+    "sha256": "0f31b8910b0fc85eb1df0ff85cb394532397e066b4a179284f0fdc57ac505252"
+  },
+  {
+    "path": "manifests/gemini-files-manifest.json",
+    "size": 827,
+    "sha256": "b2a7c262242d813694336bbc60f379ddc8b7a8561a173369017c621df04bfadc"
+  },
+  {
+    "path": "manifests/ide-modifications.json",
+    "size": 1235,
+    "sha256": "1f6f8bdab0ceaef4bbd765ddfe9783f2e4c7d1902a4f23bb1fa432aa0ec48e09"
+  },
+  {
+    "path": "manifests/mcp-manifest.json",
+    "size": 2234,
+    "sha256": "53ee7b6ca3455771bfa185188847e11e1a37440078992806bc04569a488e0856"
+  },
+  {
+    "path": "manifests/mcp-runtime-manifest.json",
+    "size": 551501,
+    "sha256": "3d2d3433110531b08b594718f2bfa272230696edcb849a48b60064e49bfd891e"
+  },
+  {
+    "path": "manifests/old-comparison.json",
+    "size": 1302,
+    "sha256": "7a76380157945f2cfdf8bc7980be2d3a176bb29f7966a97f3ba71208ce346459"
+  },
+  {
+    "path": "manifests/public-files-manifest.json",
+    "size": 1281745,
+    "sha256": "d9ba8f9d49105a3b46822163ddf0ab01c8418459fa21fd8836b2bed11188e650"
+  },
+  {
+    "path": "manifests/public-source-comparison.json",
+    "size": 2930,
+    "sha256": "c99e31775ebb00c9f6756589f295394cdba5c5ba4efd47088de60aa83894fb3e"
+  },
+  {
+    "path": "manifests/security-scan.json",
+    "size": 674,
+    "sha256": "d5b4623d974e1ca970388c2fc77ac75d474e3f893aab3d0023f348989bc7f86d"
+  },
+  {
+    "path": "manifests/source-manifest.json",
+    "size": 2487,
+    "sha256": "44056051e13219e28da38705721d417966d38db22ebfbcd49402a2583096f7c3"
+  },
+  {
+    "path": "manifests/sources-manifest.json",
+    "size": 25788,
+    "sha256": "74dfae7debc565bd80aaf3d3700a887561973c5f8449d7fc6f122398c608d0e3"
+  },
+  {
+    "path": "manifests/test-results.json",
+    "size": 19923,
+    "sha256": "7f6dc6481d2af91f85989e3408e7bdf4323839d2e1236bdfb34257a1db3fa482"
+  },
+  {
+    "path": "payload/custom-extensions/iranon.jelly-cursor-0.0.8/assets/icon.png",
+    "size": 32989,
+    "sha256": "fea7e0b6b03df6ee819a7ccf89a98d3ccc3b469b8cfe782ff2081dd6521c4237"
+  },
+  {
+    "path": "payload/custom-extensions/iranon.jelly-cursor-0.0.8/changelog.md",
+    "size": 5189,
+    "sha256": "7cb351f38dab8a5abeed11e468da62e70b2d734f233f9c8dc3306ddfad9f79cf"
+  },
+  {
+    "path": "payload/custom-extensions/iranon.jelly-cursor-0.0.8/dist/extension.js",
+    "size": 57695,
+    "sha256": "78df7cdff078f62e423151d01ad4bf6664b0dd6383b0d657a5f26c7a83cbad68"
+  },
+  {
+    "path": "payload/custom-extensions/iranon.jelly-cursor-0.0.8/LICENSE.txt",
+    "size": 1063,
+    "sha256": "8b94f88c8ab1af6b229c7edfd4fdd2fdb9280f35fbbcba3666e95d7052a0cdd2"
+  },
+  {
+    "path": "payload/custom-extensions/iranon.jelly-cursor-0.0.8/package.json",
+    "size": 10805,
+    "sha256": "bca28917eb9cfb81ef699f09d155b682cdb38f223bddb346c1d68e57b6bde81a"
+  },
+  {
+    "path": "payload/custom-extensions/iranon.jelly-cursor-0.0.8/readme.md",
+    "size": 10745,
+    "sha256": "3c9f98e853e02fc0c403b8572bf56b009c1a263043d5d465ef71a7bc76c4b8fc"
+  },
+  {
+    "path": "payload/custom-extensions/iranon.jelly-cursor-0.0.8/README.zh-CN.md",
+    "size": 10173,
+    "sha256": "723309194837020842e1f5237dbcfa3df56796971aad30f6d6acf69322e2cbb1"
+  },
+  {
+    "path": "payload/custom-extensions/mansur-inline-autocomplete/extension.js",
+    "size": 15024,
+    "sha256": "f771ef14daa469b47a6468cc26b20ba4e62763653ac41d215bbb7bc2d8dc52ce"
+  },
+  {
+    "path": "payload/custom-extensions/mansur-inline-autocomplete/package.json",
+    "size": 469,
+    "sha256": "7a960d4d121a9a87701bdc843a36ef6e8bd976e32bb2a9a6113b9611ba547437"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/.gitignore",
+    "size": 40,
+    "sha256": "03173497cca65dddd9bd15704a3bfa18f2d757507661f9f65e399da1d77f8ae6"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/.vsixmanifest",
+    "size": 2546,
+    "sha256": "f406fb0e203ec780982db0340038b914c149786b79ed22effcef011332e61334"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/bin/tsc",
+    "size": 45,
+    "sha256": "8d5fa5bd883fec0979fc2004f1fe1d99aef40570155d550eadc0b03b55513bf0"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/bin/tsserver",
+    "size": 50,
+    "sha256": "a088f0c3419bcb2f7b860ad42e4c9f25ead067eda70af6a10d0a7d453954aada"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/_tsc.js",
+    "size": 6213092,
+    "sha256": "e8f349eabd48486bdb2bf9dc1a00c89d58297270c54b745838879e2859194419"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/_tsserver.js",
+    "size": 27888,
+    "sha256": "0efcc88cdf0593cc1dcc8b6afd605c7bed9eca6f648c70c8f0df8695114bf6d7"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/_typingsInstaller.js",
+    "size": 10363,
+    "sha256": "62a69c574365f1c81633b86b3214f9df860aad08843028dd5244b00aa7f1e190"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/cs/diagnosticMessages.generated.json",
+    "size": 320453,
+    "sha256": "5b30e58d35f877521e14c16551c86320b2ed19ddb70fe5f41841b561d27f18c2"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/de/diagnosticMessages.generated.json",
+    "size": 344426,
+    "sha256": "a4031a8028febc35f92ba317104878d93f02c1750e6ee16351c2270ab4dff517"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/es/diagnosticMessages.generated.json",
+    "size": 340054,
+    "sha256": "3c7844125e1f2a3a2227e16dd1fed75218a3454919706b34cd8a5da9d43cda22"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/fr/diagnosticMessages.generated.json",
+    "size": 346016,
+    "sha256": "9fc1836d7575840a8b7a63dacdedd99e90e4144c0bbe29a4b7fa78a86e0e8bf5"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/it/diagnosticMessages.generated.json",
+    "size": 339409,
+    "sha256": "a740fe2b2338d72a8d165fb8c7c22ac1393a18b6aa7f1ed6d45b79887867f98a"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/ja/diagnosticMessages.generated.json",
+    "size": 381398,
+    "sha256": "ae1a2d439bfb60b9fa32408bde0e9ec39840a33d621014fcb5b2fb4e69a606de"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/ko/diagnosticMessages.generated.json",
+    "size": 346139,
+    "sha256": "31b27d2d556fc037eeac1672f771bf940ec70afba342e977faa75a2fa292a8be"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.d.ts",
+    "size": 992,
+    "sha256": "a7297ff837fcdf174a9524925966429eb8e5feecc2cc55cc06574e6b092c1eaa"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.decorators.d.ts",
+    "size": 13192,
+    "sha256": "8e7f8264d0fb4c5339605a15daadb037bf238c10b654bb3eee14208f860a32ea"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.decorators.legacy.d.ts",
+    "size": 1326,
+    "sha256": "782dec38049b92d4e85c1585fbea5474a219c6984a35b004963b00beb1aab538"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.dom.asynciterable.d.ts",
+    "size": 1887,
+    "sha256": "d7a3c8b952931daebdfc7a2897c53c0a1c73624593fa070e46bd537e64dcd20a"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.dom.d.ts",
+    "size": 1874901,
+    "sha256": "080941d9f9ff9307f7e27a83bcd888b7c8270716c39af943532438932ec1d0b9"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+    "size": 29802,
+    "sha256": "2e80ee7a49e8ac312cc11b77f1475804bee36b3b2bc896bead8b6e1266befb43"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+    "size": 5229,
+    "sha256": "dc2df20b1bcdc8c2d34af4926e2c3ab15ffe1160a63e58b7e09833f616efff44"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2015.core.d.ts",
+    "size": 22866,
+    "sha256": "c57796738e7f83dbc4b8e65132f11a377649c00dd3eee333f672b8f0a6bea671"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2015.d.ts",
+    "size": 1241,
+    "sha256": "45b7ab580deca34ae9729e97c13cfd999df04416a79116c3bfb483804f85ded4"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+    "size": 2557,
+    "sha256": "515d0b7b9bea2e31ea4ec968e9edd2c39d3eebf4a2d5cbd04e88639819ae3b71"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+    "size": 18200,
+    "sha256": "0559b1f683ac7505ae451f9a96ce4c3c92bdc71411651ca6ddb0e88baaaad6a3"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+    "size": 3200,
+    "sha256": "0dc1e7ceda9b8b9b455c3a2d67b0412feab00bd2f66656cd8850e8831b08b537"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+    "size": 5251,
+    "sha256": "ce691fb9e5c64efb9547083e4a34091bcbe5bdb41027e310ebba8f7d96a98671"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+    "size": 6493,
+    "sha256": "8d697a2a929a5fcb38b7a65594020fcef05ec1630804a33748829c5ff53640d0"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+    "size": 1649,
+    "sha256": "4ff2a353abf8a80ee399af572debb8faab2d33ad38c4b4474cff7f26e7653b8d"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+    "size": 11010,
+    "sha256": "fb0f136d372979348d59b3f5020b4cdb81b5504192b1cacff5d1fbba29378aa1"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+    "size": 5204,
+    "sha256": "d15bea3d62cbbdb9797079416b8ac375ae99162a7fba5de2c6c505446486ac0a"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2016.d.ts",
+    "size": 965,
+    "sha256": "3facaf05f0c5fc569c5649dd359892c98a85557e3e0c847964caeb67076f4d75"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2016.full.d.ts",
+    "size": 1032,
+    "sha256": "807e0e0bdc67605dd28efe18f20ab5fcd75d944ef95936120702335f9379094b"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2016.intl.d.ts",
+    "size": 1484,
+    "sha256": "68d18b664c9d32a7336a70235958b8997ebc1c3b8505f4f1ae2b7e7753b87618"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts",
+    "size": 915,
+    "sha256": "eb3d66c8327153d8fa7dd03f9c58d351107fe824c79e9b56b462935176cdf12a"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2017.d.ts",
+    "size": 1162,
+    "sha256": "e44bb8bbac7f10ecc786703fe0a6a4b952189f908707980ba8f3c8975a760962"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2017.date.d.ts",
+    "size": 1916,
+    "sha256": "38f0219c9e23c915ef9790ab1d680440d95419ad264816fa15009a8851e79119"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2017.full.d.ts",
+    "size": 1032,
+    "sha256": "1d242d5c24cf285c88bc4fb93c5ff903de8319064e282986edeb6247ba028d5e"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+    "size": 1449,
+    "sha256": "4de680d5bb41c17f7f68e0419412ca23c98d5749dcaaea1896172f06435891fc"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2017.object.d.ts",
+    "size": 2473,
+    "sha256": "69ab18c3b76cd9b1be3d188eaf8bba06112ebbe2f47f6c322b5105a6fbc45a2e"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+    "size": 7209,
+    "sha256": "a680117f487a4d2f30ea46f1b4b7f58bef1480456e18ba53ee85c2746eeca012"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2017.string.d.ts",
+    "size": 2378,
+    "sha256": "2f11ff796926e0832f9ae148008138ad583bd181899ab7dd768a2666700b1893"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+    "size": 1542,
+    "sha256": "954296b30da6d508a104a3a0b5d96b76495c709785c1d11610908e63481ee667"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+    "size": 2692,
+    "sha256": "ac9538681b19688c8eae65811b329d3744af679e0bdfa5d842d0e32524c73e1c"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+    "size": 2257,
+    "sha256": "0a969edff4bd52585473d24995c5ef223f6652d6ef46193309b3921d65dd4376"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2018.d.ts",
+    "size": 1088,
+    "sha256": "5e1c4c362065a6b95ff952c0eab010f04dcd2c3494e813b493ecfd4fcb9fc0d8"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2018.full.d.ts",
+    "size": 1074,
+    "sha256": "95f1023b824c2c511c48f1201e2d1188bcb0ca1138a309a870b956d2e92e44ab"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+    "size": 3021,
+    "sha256": "9e9fbd7030c440b33d021da145d3232984c8bb7916f277e8ffd3dc2e3eae2bdb"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+    "size": 1353,
+    "sha256": "811ec78f7fefcabbda4bfa93b3eb67d9ae166ef95f9bff989d964061cbf81a0c"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+    "size": 1232,
+    "sha256": "717937616a17072082152a2ef351cb51f98802fb4b2fdabd32399843875974ca"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2019.array.d.ts",
+    "size": 3163,
+    "sha256": "d7e7d9b7b50e5f22c915b525acc5a49a7a6584cf8f62d0569e557c5cfc4b2ac2"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2019.d.ts",
+    "size": 1071,
+    "sha256": "68d73b4a11549f9c0b7d352d10e91e5dca8faa3322bfb77b661839c42b1ddec7"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2019.full.d.ts",
+    "size": 1074,
+    "sha256": "08f6861df84fba9719c14d5adc3ba40be9f0c687639e6c4df3c05b9301b8ff94"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2019.intl.d.ts",
+    "size": 958,
+    "sha256": "74f7fa2d027d5b33eb0471c8e82a6c87216223181ec31247c357a3e8e2fddc5b"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2019.object.d.ts",
+    "size": 1473,
+    "sha256": "71c37f4c9543f31dfced6c7840e068c5a5aacb7b89111a4364b1d5276b852557"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2019.string.d.ts",
+    "size": 1528,
+    "sha256": "576711e016cf4f1804676043e6a0a5414252560eb57de9faceee34d79798c850"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+    "size": 1006,
+    "sha256": "89c1b1281ba7b8a96efc676b11b264de7a8374c5ea1e6617f11880a13fc56dc6"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+    "size": 38185,
+    "sha256": "d6d7ae4d1f1f3772e2a3cde568ed08991a8ae34a080ff1151af28b7f798e22ca"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2020.d.ts",
+    "size": 1201,
+    "sha256": "5efce4fc3c29ea84e8928f97adec086e3dc876365e0982cc8479a07954a3efd4"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2020.date.d.ts",
+    "size": 2956,
+    "sha256": "063600664504610fe3e99b717a1223f8b1900087fab0b4cad1496a114744f8df"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2020.full.d.ts",
+    "size": 1074,
+    "sha256": "1305d1e76ca44e30fb8b2b8075fa522b83f60c0bcf5d4326a9d2cf79b53724f8"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2020.intl.d.ts",
+    "size": 22438,
+    "sha256": "639e512c0dfc3fad96a84caad71b8834d66329a1f28dc95e3946c9b58176c73a"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2020.number.d.ts",
+    "size": 1587,
+    "sha256": "368af93f74c9c932edd84c58883e736c9e3d53cec1fe24c0b0ff451f529ceab1"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2020.promise.d.ts",
+    "size": 1803,
+    "sha256": "934019d7e3c81950f9a8426d093458b65d5aff2c7c1511233c0fd5b941e608ab"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts",
+    "size": 5128,
+    "sha256": "52ada8e0b6e0482b728070b7639ee42e83a9b1c22d205992756fe020fd9f4a47"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2020.string.d.ts",
+    "size": 2556,
+    "sha256": "3bdefe1bfd4d6dee0e26f928f93ccc128f1b64d5d501ff4a8cf3c6371200e5e6"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
+    "size": 1606,
+    "sha256": "59fb2c069260b4ba00b5643b907ef5d5341b167e7d1dbf58dfd895658bda2867"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2021.d.ts",
+    "size": 1036,
+    "sha256": "feecb1be483ed332fad555aff858affd90a48ab19ba7272ee084704eb7167569"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2021.full.d.ts",
+    "size": 1074,
+    "sha256": "4a66df3ab5de5cfcda11538cffddd67ff6a174e003788e270914c1e0248483cf"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2021.intl.d.ts",
+    "size": 8245,
+    "sha256": "965f36eae237dd74e6cca203a43e9ca801ce38824ead814728a2807b1910117d"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2021.promise.d.ts",
+    "size": 2262,
+    "sha256": "af3dd424cf267428f30ccfc376f47a2c0114546b55c44d8c0f1d57d841e28d74"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2021.string.d.ts",
+    "size": 1592,
+    "sha256": "995c005ab91a498455ea8dfb63aa9f83fa2ea793c3d8aa344be4a1678d06d399"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2021.weakref.d.ts",
+    "size": 3171,
+    "sha256": "959d36cddf5e7d572a65045b876f2956c973a586da58e5d26cde519184fd9b8a"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2022.array.d.ts",
+    "size": 4676,
+    "sha256": "3925a6c820dcb1a06506c90b1577db1fdbf7705d65b62b99dce4be75c637e26b"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2022.d.ts",
+    "size": 1108,
+    "sha256": "ee7bad0c15b58988daa84371e0b89d313b762ab83cb5b31b8a2d1162e8eb41c2"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2022.error.d.ts",
+    "size": 2379,
+    "sha256": "0a3d63ef2b853447ec4f749d3f368ce642264246e02911fcb1590d8c161b8005"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2022.full.d.ts",
+    "size": 1074,
+    "sha256": "3cbad9a1ba4453443026ed38e4b8be018abb26565fa7c944376463ad9df07c41"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2022.intl.d.ts",
+    "size": 7692,
+    "sha256": "8cdf8847677ac7d20486e54dd3fcf09eda95812ac8ace44b4418da1bbbab6eb8"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2022.object.d.ts",
+    "size": 1085,
+    "sha256": "8444af78980e3b20b49324f4a16ba35024fef3ee069a0eb67616ea6ca821c47a"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2022.regexp.d.ts",
+    "size": 1331,
+    "sha256": "b4b67b1a91182421f5df999988c690f14d813b9850b40acd06ed44691f6727ad"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2022.string.d.ts",
+    "size": 1155,
+    "sha256": "3287d9d085fbd618c3971944b65b4be57859f5415f495b33a6adc994edd2f004"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2023.array.d.ts",
+    "size": 40236,
+    "sha256": "df83c2a6c73228b625b0beb6669c7ee2a09c914637e2d35170723ad49c0f5cd4"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2023.collection.d.ts",
+    "size": 900,
+    "sha256": "436aaf437562f276ec2ddbee2f2cdedac7664c1e4c1d2c36839ddd582eeb3d0a"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2023.d.ts",
+    "size": 999,
+    "sha256": "27bdc30a0e32783366a5abeda841bc22757c1797de8681bbe81fbc735eeb1c10"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2023.full.d.ts",
+    "size": 1074,
+    "sha256": "785921608325fa246b450f05b238f4b3ed659f1099af278ce9ebbc9416a13f1d"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2023.intl.d.ts",
+    "size": 2645,
+    "sha256": "8e3c06ea092138bf9fa5e874a1fdbc9d54805d074bee1de31b99a11e2fec239d"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts",
+    "size": 2637,
+    "sha256": "87dc0f382502f5bbce5129bdc0aea21e19a3abbc19259e0b43ae038a9fc4e326"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2024.collection.d.ts",
+    "size": 1224,
+    "sha256": "b1cb28af0c891c8c96b2d6b7be76bd394fddcfdb4709a20ba05a7c1605eea0f9"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2024.d.ts",
+    "size": 1166,
+    "sha256": "8fd575e12870e9944c7e1d62e1f5a73fcf23dd8d3a321f2a2c74c20d022283fe"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2024.full.d.ts",
+    "size": 1074,
+    "sha256": "b3e9cef4eed59f8a2249ed834ba4aabe9d0d4e9037d4679487fa17dad99004a3"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2024.object.d.ts",
+    "size": 1259,
+    "sha256": "2fef54945a13095fdb9b84f705f2b5994597640c46afeb2ce78352fab4cb3279"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2024.promise.d.ts",
+    "size": 1389,
+    "sha256": "ac77cb3e8c6d3565793eb90a8373ee8033146315a3dbead3bde8db5eaf5e5ec6"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2024.regexp.d.ts",
+    "size": 1073,
+    "sha256": "56e4ed5aab5f5920980066a9409bfaf53e6d21d3f8d020c17e4de584d29600ad"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts",
+    "size": 3077,
+    "sha256": "4ece9f17b3866cc077099c73f4983bddbcb1dc7ddb943227f1ec070f529dedd1"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es2024.string.d.ts",
+    "size": 1194,
+    "sha256": "0a6282c8827e4b9a95f4bf4f5c205673ada31b982f50572d27103df8ceb8013c"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es5.d.ts",
+    "size": 218439,
+    "sha256": "c430d44666289dae81f30fa7b2edebf186ecc91a2d4c71266ea6ae76388792e1"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.es6.d.ts",
+    "size": 1032,
+    "sha256": "df039a67536fe2acc3affdcbfb645892f842db36fe599e8e652e2f0c640a90d1"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.array.d.ts",
+    "size": 1791,
+    "sha256": "1c9319a09485199c1f7b0498f2988d6d2249793ef67edda49d1e584746be9032"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.collection.d.ts",
+    "size": 3878,
+    "sha256": "e3a2a0cee0f03ffdde24d89660eba2685bfbdeae955a6c67e8c4c9fd28928eeb"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.d.ts",
+    "size": 1282,
+    "sha256": "2ab096661c711e4a81cc464fa1e6feb929a54f5340b46b0a07ac6bbf857471f0"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.decorators.d.ts",
+    "size": 1070,
+    "sha256": "d4b1d2c51d058fc21ec2629fff7a76249dec2e36e12960ea056e3ef89174080f"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.disposable.d.ts",
+    "size": 6806,
+    "sha256": "51ad4c928303041605b4d7ae32e0c1ee387d43a24cd6f1ebf4a2699e1076d4fa"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.error.d.ts",
+    "size": 1029,
+    "sha256": "73f78680d4c08509933daf80947902f6ff41b6230f94dd002ae372620adb0f60"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.float16.d.ts",
+    "size": 20528,
+    "sha256": "196cb558a13d4533a5163286f30b0509ce0210e4b316c56c38d4c0fd2fb38405"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.full.d.ts",
+    "size": 1074,
+    "sha256": "bde31fd423cd93b0eff97197a3f66df7c93e8c0c335cbeb113b7ff1ac35c23f4"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+    "size": 893,
+    "sha256": "811c71eee4aa0ac5f7adf713323a5c41b0cf6c4e17367a34fbce379e12bbf0a4"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.iterator.d.ts",
+    "size": 8676,
+    "sha256": "22adec94ef7047a6c9d1af3cb96be87a335908bf9ef386ae9fd50eeb37f44c47"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.promise.d.ts",
+    "size": 1658,
+    "sha256": "60037901da1a425516449b9a20073aa03386cce92f7a1fd902d7602be3a7c2e9"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.esnext.sharedmemory.d.ts",
+    "size": 1067,
+    "sha256": "c5239f5c01bcfa9cd32f37c496cf19c61d69d37e48be9de612b541aac915805b"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.scripthost.d.ts",
+    "size": 9451,
+    "sha256": "cd034f499c6cdca722b60c04b5b1b78e058487a7085a8e0d6fb50809947ee573"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts",
+    "size": 1887,
+    "sha256": "ca417afee74054e99d5a8252b35bef26ca6e2942d67d343fce6b42fc9f432993"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.webworker.d.ts",
+    "size": 609557,
+    "sha256": "6d08cde2bfb6ff909efbf7cb7d6d55be412cf4b9f48fd0430185986973fa91f5"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+    "size": 1041,
+    "sha256": "80e18897e5884b6723488d4f5652167e7bb5024f946743134ecc4aa4ee731f89"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/lib.webworker.iterable.d.ts",
+    "size": 22768,
+    "sha256": "d6c6331ce67c41b2ad5bfb0c8c022403980b479a377a44da8f16b61120418f66"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/pl/diagnosticMessages.generated.json",
+    "size": 342111,
+    "sha256": "0645575abe920de1ee4cf3f2f70c7abc7f6691daa01cf1e9ad6b1ce53917c9ff"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/pt-br/diagnosticMessages.generated.json",
+    "size": 330482,
+    "sha256": "34a649eb937cd70fe7b15663c2e5479e753d42df0e5c2933636789b60c2c939d"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/ru/diagnosticMessages.generated.json",
+    "size": 443587,
+    "sha256": "29bb8ea9d44f55bb7acdedfac0a57865ea40552f004d0d6e3b96746ac76666cc"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/tr/diagnosticMessages.generated.json",
+    "size": 330684,
+    "sha256": "9466915f3e0cdb2625495bbe9c02c8b7ef9e3543fffae957ba034655563abf65"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/tsc.js",
+    "size": 267,
+    "sha256": "2cffde0b8c6760dfb0b5b0382bbb7e00ba6a8b2d981b9205b256a700a481d983"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/tsserver.js",
+    "size": 272,
+    "sha256": "e3ccfeec65ec5c470b8ffc5611878a31182650c7e8a062c38a719f83b523edcb"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/tsserverlibrary.d.ts",
+    "size": 865,
+    "sha256": "73b15a0b7cf5c6df9076b9408c5ce682f11813453bf54c54cb284f075b5224cf"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/tsserverlibrary.js",
+    "size": 1012,
+    "sha256": "7ca9b464de80a5382d9ccfed2b224323bc0274c8de61bf0464e89ee824677c76"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/typescript.d.ts",
+    "size": 588085,
+    "sha256": "e134052a6b1ded61693b4037f615dc72f14e2881e79c1ddbff6c514c8a516b05"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/typescript.js",
+    "size": 9112572,
+    "sha256": "3ae902c92cc44dace175c0e69e13a4b0899f6983c6121d76b9ab8dd5795e7675"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/typesMap.json",
+    "size": 16788,
+    "sha256": "4143fb8b1c5d4421dfa19a4b80ddf2da375fc0835a349c3b18519fda5955e1d9"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/typingsInstaller.js",
+    "size": 280,
+    "sha256": "2d48a038523ea7c626fa2796a30fa5fdc07612ea5fab83544423009d7683a213"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/watchGuard.js",
+    "size": 2313,
+    "sha256": "471200d4bc555ef8d8429358bdca2a68ea7c9bfff6c853b5b048d2512fe4092a"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json",
+    "size": 295909,
+    "sha256": "6bd4ae6aea0991f6b73c46ec79ebb643b280a07e4808be363b07d01d2f6d399d"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json",
+    "size": 292532,
+    "sha256": "c35cf732ff01539090a3622b7a07f7bb4cadb28f6f13048b366012c458329be1"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/LICENSE.txt",
+    "size": 9197,
+    "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/package.json",
+    "size": 3620,
+    "sha256": "822ef7ca6452205657b6288b066481ecf508bfbf43455d715cf7d3ec457561e6"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/README.md",
+    "size": 2842,
+    "sha256": "73147458477d90cd6236627cdd9b0871df12e6e8a21d2d0fda6d1ad2826bdc0e"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/SECURITY.md",
+    "size": 2656,
+    "sha256": "7b6976eec43edfa68b79a459dd089c56b7a395916dbf1a01bd11e6d86e12128f"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/node_modules/typescript/ThirdPartyNoticeText.txt",
+    "size": 37824,
+    "sha256": "1af3c68039c57e539422da82a4faada506ce6d0ea6f90e0b699d02dbcdb7a90c"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/out/analyzer/aiAnalyzer.js",
+    "size": 1179,
+    "sha256": "6299ed75fcd7b5d25ec381959a68bdb3097d3d6f0688b414349915f60b0066df"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/out/analyzer/astAnalyzer.js",
+    "size": 12035,
+    "sha256": "6fe6cce557405c99c6c5ecef49be40779c65bdf412f62d5b1df257a6b0a8df2e"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/out/analyzer/autoFixer.js",
+    "size": 29491,
+    "sha256": "13690f7df897ae8318b52fc747eb9871d17f28c3b61d05f367581eca854f31db"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/out/analyzer/rules.js",
+    "size": 28153,
+    "sha256": "3cc99f63ae7e52b94a01b14e2075e9858b9fedfab3166c155e20cc20b66f591f"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/out/analyzer/structureAnalyzer.js",
+    "size": 20025,
+    "sha256": "dbba40f4a06ca414fded990d61ed3deb2390496006926990270a4f5b6d05a109"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/out/extension.js",
+    "size": 5376,
+    "sha256": "86201e34ea7648ecbe85b6b102ec18372e31f4b5a4d47476a23e5e5e9be0b2cc"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/out/models/issue.js",
+    "size": 110,
+    "sha256": "426293330b51329acf90e37a51b667f6770d2eb275bbb5b880990a66e717226c"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/out/providers/fileDecorationProvider.js",
+    "size": 4500,
+    "sha256": "3441eca60764e1384210dbb22d61c5cf9eecd347e27c33b234454e163225c403"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/out/providers/structureTreeProvider.js",
+    "size": 10490,
+    "sha256": "75ae48fd28e7c4fb0b010c6397850a4de5c55b0ed910ff0b67f8acbeb03a1bcd"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/out/utils/workspace.js",
+    "size": 5268,
+    "sha256": "1177061b2967cb894dd36231204618f38d9f915efc791acdd4826c15b4a3e9c5"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/package.json",
+    "size": 2108,
+    "sha256": "6b4c79f43ac6f9b41892b6af9c2ab1b8b2b034c3453177d6f8326f3ae23d3d25"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.ai-structure-reviewer-1.1.0/README.md",
+    "size": 1888,
+    "sha256": "2a480e2f3019d2d23bf3def2729f0e7d3726ee8802d42f80986cf3a71dccc12f"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/.vsixmanifest",
+    "size": 2457,
+    "sha256": "537e10d9d4c6be2663fc51637db13337da5e20f149a0e33f74c21371283eea7e"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/media/codicon.css",
+    "size": 196,
+    "sha256": "16bcd361d8c80a2fe0f9b1598e0609b86b90fcd2d6c6ed1e3c87fcb9d01e3427"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/media/consoleView.js",
+    "size": 25902,
+    "sha256": "d9bca6124b06126ba08e38a2b028e7aac4eb69c9b3aaeb4aa39424906445b1b2"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/media/networkView.js",
+    "size": 21990,
+    "sha256": "997652efce65482b410f21fcfd6b241df25009fd1cad826ea1591c74fba882f2"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/media/runtimeMonitor.css",
+    "size": 16269,
+    "sha256": "0ffee70b4c21b056943e288ff779ef0c5ee3ba6ae1b9c7840b67d969dfbf6c24"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/browser.js",
+    "size": 176,
+    "sha256": "010da44addea1d88b2b732540c3f1fd0cbcb28926b96623d4c64222e0ead2d0e"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/index.js",
+    "size": 796,
+    "sha256": "924564d5be26d59b9682c4263f68320e48dde7240bd2d1ad17ec305537429dd2"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/buffer-util.js",
+    "size": 3056,
+    "sha256": "8b0a45739132f82e25ea13163780abf547ccfe989267f3eb7abb475beec92da3"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/constants.js",
+    "size": 503,
+    "sha256": "391e823142b8b370e55a2fd32b022deaf03b8415c56000009674ebc86a0b4f86"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/event-target.js",
+    "size": 7321,
+    "sha256": "c45d3c6e12d170c860c0c3f1a050aa0f864d9806632b609a1e607d675aba128c"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/extension.js",
+    "size": 6183,
+    "sha256": "852564f0f6b460287043803eae732666fb5610f676874354fc89f06aa4e986ed"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/limiter.js",
+    "size": 1034,
+    "sha256": "e0469d4b83f6ba764b15f80e1766b75c136fbff68f048f4c050f0b1c7f065f69"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/permessage-deflate.js",
+    "size": 14669,
+    "sha256": "16a91536988a53c23047ee5882392068728a839a244178c3b09b8c54982f58b0"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/receiver.js",
+    "size": 17439,
+    "sha256": "a6ada33c9a2d54eaf595824b821ea89ca2c6395f89aa06755c52142148274884"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/sender.js",
+    "size": 16886,
+    "sha256": "d0791d30c3defd44dcabbddb879a901c757993fea2c00a7ffea01d53b23b4b77"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/stream.js",
+    "size": 4204,
+    "sha256": "a56fcb6e2b152097ee820b6f5410b1f71e59819b45d08d9f8bda588fe39070ec"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/subprotocol.js",
+    "size": 1498,
+    "sha256": "be3f6323d6f549568577dcba9004c1479d95c65a7abb0fe0c582875b9fac0b7c"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/validation.js",
+    "size": 3903,
+    "sha256": "41ce8e83d0d434132e1704895fedb91f6703a701b42d91c80954ab29b2845593"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/websocket-server.js",
+    "size": 17022,
+    "sha256": "6d8dd89a841748c80445fd5fcdb5ba8005369b53cc3525135e11304c8b9c55e5"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/lib/websocket.js",
+    "size": 37367,
+    "sha256": "de5add831db49e159d3ee0adb1c5e042eba3af13166374c5584f4fc520d1e734"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/LICENSE",
+    "size": 1183,
+    "sha256": "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/package.json",
+    "size": 1829,
+    "sha256": "a56a3fd55945a3ce177e3ca165dafae6f7eb03b7aefd58c092ac723d5741a6fb"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/README.md",
+    "size": 15306,
+    "sha256": "bb979132f3cbff08ce47f36d041e18071f8f534d01f591c0b129ba7abf1e480e"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/node_modules/ws/wrapper.mjs",
+    "size": 554,
+    "sha256": "fe154662301fd558f935f9c217fccbe7a7dac02ff39e648a000589403ff27c7f"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/browser/browserLauncher.js",
+    "size": 7506,
+    "sha256": "4857b33a7219ca7e99aded402b897301255d37de1bbbec43e96824b272b2c36f"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/browser/targetDiscovery.js",
+    "size": 8542,
+    "sha256": "ead4a0180870606c80fd65d1364a5557445f911c6be58c78c59bb3272113dfb4"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/cdp/cdpClient.js",
+    "size": 4404,
+    "sha256": "602ac8bfa2d72a530b9653b28283fca65d7bb9a3d513e6515197aaa4ec1c6433"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/console/consoleStore.js",
+    "size": 2457,
+    "sha256": "73554dc0a7716c18b8f7226dfe4328bce2960fdf965c2d2a77c843908dc454aa"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/console/errorParser.js",
+    "size": 15103,
+    "sha256": "05017c3d25d8e570ce557c1853373805df551ab76df83f8a02b6208db4490d0c"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/extension.js",
+    "size": 4485,
+    "sha256": "cd01b38914e382b58a75fccd2966d156df18d9360f5e3076897c36195eb1e504"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/network/networkModels.js",
+    "size": 118,
+    "sha256": "dc30be97c3e4c23b953aabe5ea2f696ca8f03b92b869ebe117031f3c2acd38c2"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/network/networkStore.js",
+    "size": 7118,
+    "sha256": "27ee1e359131003cfbf0910fc0056fa71411a57425bd7e6b75474180249c27d2"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/panel/consoleViewProvider.js",
+    "size": 7894,
+    "sha256": "e0abfe0a4fa6b8e36a16e71892311a9162a88372c0ffa52f61bb8bdf7cf46ad0"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/panel/networkViewProvider.js",
+    "size": 9175,
+    "sha256": "259dbf684afcc4cc8784be7e5cc48e1de5945b1c62af7f4510ff3188d42a575c"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/panel/runtimeMonitorCoordinator.js",
+    "size": 31880,
+    "sha256": "17d69dc2e3b198c25bb4208804b4619bde970c9a6c673dddabb80a72fc0cf4cb"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/utils/diff.js",
+    "size": 2827,
+    "sha256": "9299d33b469368c3d556ec5f4345807f3090f1010703aae6b5a73c4f39a3f5c1"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/utils/paths.js",
+    "size": 8238,
+    "sha256": "77f2cdc20bf85d4f6ed5d2893600ef29ef7dc3d84dc72434e9c6ec403f6845f6"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/out/utils/security.js",
+    "size": 2334,
+    "sha256": "74e84f7cad594ee47d32dbc9b387381a55da1f854de3e001948b3565a836d013"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/package.json",
+    "size": 7678,
+    "sha256": "774ef7b77dee5b08531bab707a95f6abce6141030b8469edba03ee2d2e214318"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/README.md",
+    "size": 1565,
+    "sha256": "583e8a7636d40c51f1c3e9fc84a0368e731237d39ea5b49507518df510a34517"
+  },
+  {
+    "path": "payload/custom-extensions/mansur.runtime-monitor-1.1.0/tsconfig.json",
+    "size": 331,
+    "sha256": "4cb92ce3026253b08261a7d19a885b46ba7e80bb26fa80a01f64aa9f1963818e"
+  },
+  {
+    "path": "payload/effects/jelly-cursor.js",
+    "size": 33421,
+    "sha256": "27dbd1e42eb8f4fcd965ae114336860ea0f3279aa3551898c7f0bda5c0093c22"
+  },
+  {
+    "path": "payload/extensions/anteprimorac.html-end-tag-labels-1.0.0.vsix",
+    "size": 1238642,
+    "sha256": "12be18c9907104fcf8f66c2f737d46003924b00760b27caea6b16597c54bedeb"
+  },
+  {
+    "path": "payload/extensions/bradgashler.htmltagwrap-1.0.0.vsix",
+    "size": 3105800,
+    "sha256": "06ddf42b305cab0ee4eb4aa10c3c0c8a726ffa48b235d66181ce329c590b04e8"
+  },
+  {
+    "path": "payload/extensions/bradlc.vscode-tailwindcss-0.16.0.vsix",
+    "size": 1762070,
+    "sha256": "3fd7ceb8b20a88d1df01c3c95f240e7b3db14fd66b8f003c1d686790608d1942"
+  },
+  {
+    "path": "payload/extensions/christian-kohler.npm-intellisense-1.4.5.vsix",
+    "size": 1221856,
+    "sha256": "962b851a7cafbd51f34afeb4a0b91e985caff3947e46218a12b448533d8f60ab"
+  },
+  {
+    "path": "payload/extensions/christian-kohler.path-intellisense-2.8.0.vsix",
+    "size": 222537,
+    "sha256": "a856e4436f4d9b4b03d581ec10f826fe79eeb6cb34f5eb9d5b013fd817aeb940"
+  },
+  {
+    "path": "payload/extensions/dbaeumer.vscode-eslint-3.0.34.vsix",
+    "size": 264365,
+    "sha256": "ca5334d46f6a39079e751ef4601bfc9f86bc3a46483e87291ec609239d161308"
+  },
+  {
+    "path": "payload/extensions/dsznajder.es7-react-js-snippets-4.4.3.vsix",
+    "size": 4717324,
+    "sha256": "4b727b2573f28dd4356dda726fac58e6028f6619cdb6015a294f4624fc4ffe3f"
+  },
+  {
+    "path": "payload/extensions/edwinhuish.better-comments-next-3.5.2.vsix",
+    "size": 139160,
+    "sha256": "996338cbefc99a683b57406dd346d92d72e21a172fad32f5fec1d22109d9091f"
+  },
+  {
+    "path": "payload/extensions/esbenp.prettier-vscode-12.4.0.vsix",
+    "size": 3643663,
+    "sha256": "fb730ea4306d09cdc0a3aaa9e9baae28058cc97a4fbfce8b056b377a0639a9fe"
+  },
+  {
+    "path": "payload/extensions/formulahendry.auto-rename-tag-0.1.10.vsix",
+    "size": 684418,
+    "sha256": "7c94f9a7971a1fbb4f74969597612e8a20e871283c930bfa54f333386c86d4d3"
+  },
+  {
+    "path": "payload/extensions/formulahendry.code-runner-0.12.2.vsix",
+    "size": 747744,
+    "sha256": "99246afaaff6bedec962976ea2cdd07e70ddd58b840666fdcf67fe21e3513dbe"
+  },
+  {
+    "path": "payload/extensions/glenn2223.live-sass-6.1.5.vsix",
+    "size": 1706535,
+    "sha256": "2d26557d99fb3f740e949383e614843af0d039cb386ed5c7b74624cbf288c3f1"
+  },
+  {
+    "path": "payload/extensions/kisstkondoros.vscode-gutter-preview-0.32.2.vsix",
+    "size": 308689,
+    "sha256": "f293062abed1214dfe8ab03c37770e942ac9901ccc4e045711fe460472e22d94"
+  },
+  {
+    "path": "payload/extensions/ms-ceintl.vscode-language-pack-ru-1.106.0.vsix",
+    "size": 574088,
+    "sha256": "e3b48fbba9d609a21d8d1216067d3496d6b8a29eeb40e8ac43ab9b9a4436fcae"
+  },
+  {
+    "path": "payload/extensions/pkief.material-icon-theme-5.38.1.vsix",
+    "size": 889997,
+    "sha256": "fa7515831a2d68b1f78bd02de40f96260bfe74efb03a238c2bde70265e04b696"
+  },
+  {
+    "path": "payload/extensions/rangav.vscode-thunder-client-2.41.3.vsix",
+    "size": 2004463,
+    "sha256": "6e094213b816f666805afd6905b497293b6d7660742b4c3f568b6895c52b907f"
+  },
+  {
+    "path": "payload/extensions/ritwickdey.liveserver-5.7.10.vsix",
+    "size": 5545669,
+    "sha256": "0f8ef819d4c2007f1bfb3b8efb533e72796e29f06fee600c76d1fb17befb5b95"
+  },
+  {
+    "path": "payload/extensions/streetsidesoftware.code-spell-checker-4.9.3.vsix",
+    "size": 3083768,
+    "sha256": "f0c7d778614278a8716b767f6084b3eb437a66618744975edd7ff2e08e93a2dc"
+  },
+  {
+    "path": "payload/extensions/usernamehw.errorlens-3.28.0.vsix",
+    "size": 61501,
+    "sha256": "10ab65469dd21cab7b177e9fc97ad7e85604b75c9ca140e5e8bdd9fc23f7119d"
+  },
+  {
+    "path": "payload/extensions/wix.vscode-import-cost-3.3.0.vsix",
+    "size": 10367033,
+    "sha256": "c36d455b8e04d31f1423a5641e3a718cb7da67be8144182ce839f61b4fd46a0c"
+  },
+  {
+    "path": "payload/fonts/FiraCode-Bold.ttf",
+    "size": 319368,
+    "sha256": "41f6554e845e2f5b70adad3950122334b866aac436793b7742ade600067701be"
+  },
+  {
+    "path": "payload/fonts/FiraCode-LICENSE",
+    "size": 4389,
+    "sha256": "1d41e10031ab125302780a05ec4c91d218e47db0c7e37cf315cce5e608cdc25c"
+  },
+  {
+    "path": "payload/fonts/FiraCode-Light.ttf",
+    "size": 288380,
+    "sha256": "c146c9a7a61914f9f5a47d24c199c50c8f143f5710b93efd3a3953af50816443"
+  },
+  {
+    "path": "payload/fonts/FiraCode-Medium.ttf",
+    "size": 283684,
+    "sha256": "97091f90623661fb4f7979c10d188f30f4806d8ce326b0bc8d1acc79dcc20d8f"
+  },
+  {
+    "path": "payload/fonts/FiraCode-Regular.ttf",
+    "size": 289624,
+    "sha256": "5992ab9640e2df491b2f609467b1de60e8bc39b2c28db184342a0592d98f6117"
+  },
+  {
+    "path": "payload/fonts/FiraCode-Retina.ttf",
+    "size": 285428,
+    "sha256": "4fe2df1cea543281e8ec0fa512d1b493eacb859cf62bc7a84886daa89268b3f3"
+  },
+  {
+    "path": "payload/fonts/FiraCode-SemiBold.ttf",
+    "size": 304248,
+    "sha256": "500c74eec6249b06d49aef922dd3e8fc754c70c3b3f7791cd7b1a09ca9a26140"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-Bold.ttf",
+    "size": 277828,
+    "sha256": "5590990c82e097397517f275f430af4546e1c45cff408bde4255dad142479dcb"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-BoldItalic.ttf",
+    "size": 279832,
+    "sha256": "4039d5ce0ed225bf9c8b2c8c6436290ae2f356b7e90d70fa666227238324aa3b"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-ExtraBold.ttf",
+    "size": 279404,
+    "sha256": "8e501d3a6a883e83ea4f7852804fb0894cebdd67751bb1006b37a476cef34cd6"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-ExtraBoldItalic.ttf",
+    "size": 281616,
+    "sha256": "ec3a860fa87d0a3b1451277d1c2f3072f5ba19d2367aec54f7169d5710872610"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-ExtraLight.ttf",
+    "size": 274144,
+    "sha256": "8391e7ec13e8ba758c1838f56bccd973228ccf4dc74aa5bffe9525b9147b12f8"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-ExtraLightItalic.ttf",
+    "size": 274240,
+    "sha256": "3c7fee57538f18b61cc5f0784a8133fe5ee95feb41f633e8f6f7ef609e6207ec"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-Italic.ttf",
+    "size": 276840,
+    "sha256": "9d0a1f7a708e6af183f1193b7e81d40da294f5c67682c085d8401c60aac8ded4"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-Light.ttf",
+    "size": 276452,
+    "sha256": "60c18d7dd58d81b3bbd12e8ce32744a8771bfe2b5280574082b0eaed46c60d24"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-LightItalic.ttf",
+    "size": 277104,
+    "sha256": "18ffadb91fa711b45feae027ddfd561e7f97ace805ec4baf9905046cf450befb"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-Medium.ttf",
+    "size": 273860,
+    "sha256": "31c92d01a8a08528b718a43addf0ad3df0af2ca4b7b3290a452f70f358e14d3d"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-MediumItalic.ttf",
+    "size": 276804,
+    "sha256": "4477fda6bd472ef96b11bc1083370f7fc3ff427bdc807e682ced5819e3dee9df"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-OFL.txt",
+    "size": 4399,
+    "sha256": "30f0c136e3c88e422d0791acd97238870f9054a9729bc34cf2ff0d4ed8cac4ad"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-Regular.ttf",
+    "size": 273900,
+    "sha256": "a0bf60ef0f83c5ed4d7a75d45838548b1f6873372dfac88f71804491898d138f"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-SemiBold.ttf",
+    "size": 277092,
+    "sha256": "1b3bfa1ed5665a4ce3f9feb68d2d4e40e70bf8b4b7d9a3edd418f321b4e166a0"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-SemiBoldItalic.ttf",
+    "size": 279828,
+    "sha256": "3b3000507a7285872395ddbb4e53a28f07910dbf494fb0d5e1421dd60b5d8436"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-Thin.ttf",
+    "size": 270112,
+    "sha256": "0756e8e8cf1d65fa7519776764479b3973efb15af4f419d5d7274dc27ae1b702"
+  },
+  {
+    "path": "payload/fonts/JetBrainsMono-ThinItalic.ttf",
+    "size": 272984,
+    "sha256": "ebcdd13119b6beb7457e2f76b31094cb8cf1108e567030f8402b24dde018e76a"
+  },
+  {
+    "path": "payload/gemini/config/rules/mansur-01.md",
+    "size": 10593,
+    "sha256": "097cd7408116ce702f463d0ad952d428f9a68272854be993453161e515adfef2"
+  },
+  {
+    "path": "payload/gemini/config/rules/mansur-02.md",
+    "size": 7598,
+    "sha256": "6ec8c0ce8ad27fee10caf9ba4f2c929bfe18996dd2f6d902cc1c2621becae1d9"
+  },
+  {
+    "path": "payload/gemini/config/rules/mansur-03.md",
+    "size": 7719,
+    "sha256": "7327c9f1d93ab4cc27bf15f0ccc1568a1c257b892917758ee5a0189895a423ba"
+  },
+  {
+    "path": "payload/gemini/config/rules/mansur.md",
+    "size": 100,
+    "sha256": "34f70a6748b1c32f677e349f0b4d4d6a4695385b3e0198309496948aa89e47e1"
+  },
+  {
+    "path": "payload/gemini/config/skills/mansur-practice/SKILL.md",
+    "size": 2994,
+    "sha256": "305c9744b0d844d6cf71639564b784b16ee1c0801e9544e277e846ea780e1b95"
+  },
+  {
+    "path": "payload/gemini/GEMINI.md",
+    "size": 193,
+    "sha256": "e5ed95936dd21bf1d2e9e1f2c2b4a1757eaf079b3f0274549af347ce54b6b468"
+  },
+  {
+    "path": "payload/gemini/mcp-template.json",
+    "size": 623,
+    "sha256": "d289ecfd09292186d994f0f7b262bc0d117a81ee3368d5b0fa951bd67e00972b"
+  },
+  {
+    "path": "payload/gemini/source-rules-original.txt",
+    "size": 25829,
+    "sha256": "d58a355504dab3381831993edc730be0098a2cf9a877477a048fe090165e2eb0"
+  },
+  {
+    "path": "payload/installers/Antigravity-IDE-2.5.5-x64.exe",
+    "size": 227712776,
+    "sha256": "a8c25631fd5e43bf217a6cf510ca796441817f4ad9c50b1d892282c7366edc4a"
+  },
+  {
+    "path": "payload/installers/chrome-win64.zip",
+    "size": 205149043,
+    "sha256": "df4854428c509fcf2f790ac448bca3f994151bcff22008236fa7c4587294fbe1"
+  },
+  {
+    "path": "payload/installers/Git-2.55.0.5-64-bit.exe",
+    "size": 65343712,
+    "sha256": "d065a4e23c3d9a6b5073d609b5be0830227ec3ca053c083ba385061ddfaf94c6"
+  },
+  {
+    "path": "payload/installers/mcp-runtime.zip",
+    "size": 7958260,
+    "sha256": "ee1f369a8eb49b7329f647c18ffb6e82122eab8af84d14f9f1c2d18a6081f29f"
+  },
+  {
+    "path": "payload/installers/node-v24.18.0-win-x64.zip",
+    "size": 37176245,
+    "sha256": "0ae68406b42d7725661da979b1403ec9926da205c6770827f33aac9d8f26e821"
+  },
+  {
+    "path": "payload/keybindings/keybindings.json",
+    "size": 1385,
+    "sha256": "b9badd7e035cae1fcf3d248ed5fb786098481ab7100b85c8036d37bbc465e664"
+  },
+  {
+    "path": "payload/scripts/checkAndRepairJellyCursor.js",
+    "size": 13786,
+    "sha256": "8c6b04adc4227a7961ca0fedbb471e00e19b98f42250119fd8a56629cd84ef47"
+  },
+  {
+    "path": "payload/settings/argv.json",
+    "size": 56,
+    "sha256": "8904cc08baa787920250a39a8a99143ff522479a41cbdcdeb523d29b684fc4c6"
+  },
+  {
+    "path": "payload/settings/settings.json",
+    "size": 11720,
+    "sha256": "18ae63c12f4acb8d5f7e1de0b6268b6833f861288a17f79c05d5d93638a9faed"
+  },
+  {
+    "path": "payload/settings/ui-state.json",
+    "size": 15120,
+    "sha256": "18fcb834cbc16ad4dda084edd860e08f85dc01ef745bd9514e725336b1db75fa"
+  },
+  {
+    "path": "payload/verification-host/extension.cjs",
+    "size": 35,
+    "sha256": "3cc7a2c2337eb51952c61ea89398266bc97ed2f942d7ccb4e46d46118257f9be"
+  },
+  {
+    "path": "payload/verification-host/live-probes.cjs",
+    "size": 8342,
+    "sha256": "1a8c51fa9aadfef3ed261619130870b7db49a753e059422409e44cd1f7da97f6"
+  },
+  {
+    "path": "payload/verification-host/package.json",
+    "size": 163,
+    "sha256": "81001ddca0324331f52d184440b3140c662a222e2cd6f0b835f5731ba58eb7ca"
+  },
+  {
+    "path": "payload/verification-host/runner.cjs",
+    "size": 2348,
+    "sha256": "d0e48b81be6770b6e9759e4639477ab690e2798100766273c20a3dc4f4df9ce6"
+  },
+  {
+    "path": "README.txt",
+    "size": 3397,
+    "sha256": "7ff4be3224c66387ff6dca42cc79bf9e5c432bc328a752744941f5158ff9e4db"
+  },
+  {
+    "path": "REPORT.md",
+    "size": 30520,
+    "sha256": "9e490c0441b4c5db6ba0d5e760d2444d88d5d17cf642e430664ffd7c37124a62"
+  },
+  {
+    "path": "scripts/backup.ps1",
+    "size": 6188,
+    "sha256": "1831ba874ca686cda6a81362e4f94913f83ea07b2d000ae5fe58367c80afb273"
+  },
+  {
+    "path": "scripts/bootstrap.ps1",
+    "size": 5277,
+    "sha256": "aa30c1e15f6b28995dc4f64608e750c14585e59ef510e206ad6b389ebfd7ba61"
+  },
+  {
+    "path": "scripts/common.ps1",
+    "size": 4366,
+    "sha256": "1f6ebeaa50afa041571e1356fb2b08026184a1342f628ff4757ed2a70ebb7c83"
+  },
+  {
+    "path": "scripts/configure.ps1",
+    "size": 3416,
+    "sha256": "180b8af01d0f7fb5c7f107f8dcbd18346f39d899242c8c04207e2b25e98a14a5"
+  },
+  {
+    "path": "scripts/detect.ps1",
+    "size": 4013,
+    "sha256": "a5129153ccab2db00f25838d16cf05b8f0d45818e213c2550e208e41ab4fa9ed"
+  },
+  {
+    "path": "scripts/diagnostics.ps1",
+    "size": 751,
+    "sha256": "4bd69102bdedf3fcf1d31c14a37f51c835766813ba1464b49d5f6c076a9850ec"
+  },
+  {
+    "path": "scripts/downloader.ps1",
+    "size": 3850,
+    "sha256": "34bc36c969117add85193e7d947ecfa1db4b0d18a5aaa301318c190825f37ddc"
+  },
+  {
+    "path": "scripts/extension-state.cjs",
+    "size": 1639,
+    "sha256": "0e4e66a30574c775a27102e16bd0b38984dc5b1a567bcd99f3218f37f40eec9c"
+  },
+  {
+    "path": "scripts/extras.ps1",
+    "size": 4413,
+    "sha256": "283460576b028967f6a605aec055011c3c70d319e0349ca7ea790a8d5a2a430c"
+  },
+  {
+    "path": "scripts/functional.ps1",
+    "size": 3459,
+    "sha256": "bfdbcf76f766f0a583b40bda652d58e0c6f365c599319d0e44bf7fd0d962d260"
+  },
+  {
+    "path": "scripts/install.ps1",
+    "size": 5831,
+    "sha256": "72c23e3fc956cecd1d7f23a48c96164e18a286517938305b249d5b5b707bd177"
+  },
+  {
+    "path": "scripts/mcp-probe.cjs",
+    "size": 4065,
+    "sha256": "cc4866ccd96984bebba095666a247f73d950af764b31fe93e85e736e19819b38"
+  },
+  {
+    "path": "scripts/preflight.ps1",
+    "size": 3262,
+    "sha256": "5b3213a90208623fa6b2e2fa27ded50fa4687478055dd241189ddaacaf73c697"
+  },
+  {
+    "path": "scripts/repair.ps1",
+    "size": 2368,
+    "sha256": "f01630ccde0642d0ef9b7fa582b1fff8f52aa8687b3ae76d7318be2cc94f5237"
+  },
+  {
+    "path": "scripts/sources.ps1",
+    "size": 582,
+    "sha256": "2a531c0a10edf23375709ac70d5eb8f53f3672c5c7a7930a4e89ce99cc845032"
+  },
+  {
+    "path": "scripts/tree.cjs",
+    "size": 3081,
+    "sha256": "aec31be1309cc5b686bfab2ef6de4fe91fa9078c2da0dda53227b0d05d75a746"
+  },
+  {
+    "path": "scripts/ui-state.cjs",
+    "size": 2330,
+    "sha256": "14984ac266aec2b69a63850f82fa28bcd89bf5bf227ae2c31d965ef1ed4254d7"
+  },
+  {
+    "path": "scripts/updater.ps1",
+    "size": 5023,
+    "sha256": "6e3e0dd92b200bc21bec65cc9847f179e951e276b13daac9d57063c6d8573678"
+  },
+  {
+    "path": "scripts/verify.ps1",
+    "size": 8693,
+    "sha256": "c1b2d1e9f6e6812cdf900c90afaf6a89d06d409611bc8b98e3ced2b063e6d27b"
+  },
+  {
+    "path": "SETUP.cmd",
+    "size": 411,
+    "sha256": "45a36f430a09866f895357ecefdf4f8f9538ff46281e706cb7b25dd092fd71a4"
+  },
+  {
+    "path": "VERIFY.cmd",
+    "size": 268,
+    "sha256": "2b3c8021a1c086140918f36cdeadcb55ff08b92ad048563ebbab67dd8c3efb27"
+  }
+]

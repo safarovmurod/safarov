@@ -1,0 +1,1 @@
+{"name":"portable-verification-host","publisher":"portable-tests","version":"1.0.0","engines":{"vscode":"^1.85.0"},"main":"./extension.cjs","activationEvents":[]}

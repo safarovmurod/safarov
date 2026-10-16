@@ -1,0 +1,84 @@
+{
+  "name": "ai-structure-reviewer",
+  "displayName": "AI Structure Reviewer",
+  "description": "Глобальный инспектор структуры проекта для React, TypeScript и веб-приложений в Antigravity IDE",
+  "version": "1.1.0",
+  "publisher": "mansur",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Linters"
+  ],
+  "keywords": [
+    "structure",
+    "react",
+    "architecture",
+    "reviewer",
+    "explorer"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "id": "aiStructureReviewer",
+          "name": "AI Структура"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "aiStructureReviewer.refresh",
+        "title": "Обновить анализ структуры",
+        "category": "AI Structure Reviewer",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "aiStructureReviewer.applyAutoFix",
+        "title": "Исправить расположение",
+        "category": "AI Structure Reviewer",
+        "icon": "$(check)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "aiStructureReviewer.refresh",
+          "when": "view == aiStructureReviewer",
+          "group": "navigation"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "aiStructureReviewer.applyAutoFix",
+          "when": "view == aiStructureReviewer && viewItem == issueFile",
+          "group": "inline"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package --allow-missing-repository --skip-license"
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^2.24.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mansur/ai-structure-reviewer"
+  },
+  "license": "MIT"
+}

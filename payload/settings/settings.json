@@ -1,0 +1,351 @@
+{
+  "jellyCursor.workbenchHtmlPath": "${WORKBENCH_HTML}",
+  "jellyCursor.rippleEnabled": true,
+  "jellyCursor.landingPulseEnabled": false,
+  "jellyCursor.sparkEnabled": false,
+  "jellyCursor.trailEnabled": false,
+  "jellyCursor.rainbowEnabled": false,
+  "jellyCursor.glowEnabled": false,
+  "jellyCursor.springEnabled": false,
+  "jellyCursor.animationMode": "smooth",
+  "jellyCursor.effectPreset": "custom",
+  "jellyCursor.statusBar": false,
+  "jellyCursor.reminders": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 1,
+  "cSpell.language": "en,ru",
+  "workbench.colorTheme": "Dark+",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.visible": true,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorCustomizations": {
+    "editorError.foreground": "#f8717166",
+    "editorWarning.foreground": "#fbbf2455",
+    "editorInfo.foreground": "#00000000",
+    "list.errorForeground": "#e2e8f0",
+    "list.warningForeground": "#e2e8f0"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1500,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnPaste": false,
+  "editor.emptySelectionClipboard": false,
+  "editor.formatOnType": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlayHints.enabled": "off",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingDelete": "always",
+  "editor.autoClosingOvertype": "always",
+  "editor.autoSurround": "languageDefined",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.quickSuggestionsDelay": 10,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.inlineSuggest.enabled": true,
+  "editor.inlineSuggest.minShowDelay": 0,
+  "editor.inlineSuggest.edits.renderSideBySide": "never",
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.linkedEditing": true,
+  "editor.parameterHints.enabled": true,
+  "editor.wordBasedSuggestions": "allDocuments",
+  "editor.suggest.showStatusBar": true,
+  "editor.showUnused": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.suggest.preview": false,
+  "editor.suggest.insertMode": "insert",
+  "editor.suggest.matchOnWordStartOnly": false,
+  "editor.suggest.showWords": true,
+  "editor.suggest.showMethods": true,
+  "editor.suggest.showFunctions": true,
+  "editor.suggest.showConstructors": true,
+  "editor.suggest.showFields": true,
+  "editor.suggest.showVariables": true,
+  "editor.suggest.showClasses": true,
+  "editor.suggest.showStructs": true,
+  "editor.suggest.showInterfaces": true,
+  "editor.suggest.showModules": true,
+  "editor.suggest.showProperties": true,
+  "editor.suggest.showEvents": true,
+  "editor.suggest.showOperators": true,
+  "editor.suggest.showUnits": true,
+  "editor.suggest.showValues": true,
+  "editor.suggest.showConstants": true,
+  "editor.suggest.showEnums": true,
+  "editor.suggest.showEnumMembers": true,
+  "editor.suggest.showKeywords": true,
+  "editor.suggest.showSnippets": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": "always",
+  "editor.guides.highlightActiveBracketPair": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.showAbbreviationSuggestions": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-close-tag.activationOnLanguage": [
+    "html",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "jsJsxSnippets.settings.importReactOnTop": false,
+  "jsJsxSnippets.settings.semicolon": false,
+  "jsJsxSnippets.settings.typing": true,
+  "javascript.validate.enable": true,
+  "typescript.validate.enable": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.paths": true,
+  "typescript.suggest.paths": true,
+  "javascript.format.semicolons": "ignore",
+  "typescript.format.semicolons": "ignore",
+  "javascript.suggest.completeFunctionCalls": false,
+  "typescript.suggest.completeFunctionCalls": false,
+  "js/ts.implicitProjectConfig.checkJs": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.quoteStyle": "double",
+  "javascript.preferences.quoteStyle": "double",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
+  "javascript.preferences.jsxAttributeCompletionStyle": "braces",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": false,
+  "prettier.semi": false,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 100,
+  "prettier.bracketSameLine": false,
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "javascriptreact": "javascriptreact",
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className"
+  ],
+  "tailwindCSS.lint.cssConflict": "ignore",
+  "tailwindCSS.lint.invalidTailwindDirective": "ignore",
+  "tailwindCSS.lint.invalidApply": "ignore",
+  "tailwindCSS.lint.invalidScreen": "ignore",
+  "tailwindCSS.lint.invalidVariant": "ignore",
+  "tailwindCSS.lint.invalidConfigPath": "ignore",
+  "tailwindCSS.lint.recommendedVariantOrder": "ignore",
+  "css.validate": false,
+  "scss.validate": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.run": "onSave",
+  "eslint.format.enable": false,
+  "errorLens.enabled": true,
+  "errorLens.followCursor": "activeLine",
+  "errorLens.delay": 2000,
+  "errorLens.gutterIconsEnabled": false,
+  "errorLens.errorColor": "#f8717188",
+  "errorLens.errorBackground": "#f871710d",
+  "errorLens.warningColor": "#fbbf2488",
+  "errorLens.warningBackground": "#fbbf240d",
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning"
+  ],
+  "errorLens.excludeBySource": [
+    "tailwindcss",
+    "ts(6133)",
+    "ts(6138)",
+    "ts(6192)",
+    "ts(6196)",
+    "ts(6198)",
+    "ts(6199)",
+    "ts(6205)"
+  ],
+  "errorLens.excludeByMessage": [
+    "Form elements must have labels",
+    "Select element must have an accessible name",
+    "Buttons must have discernible text",
+    "Button elements must have discernible text"
+  ],
+  "npm-intellisense.importES6": true,
+  "npm-intellisense.scanDevDependencies": true,
+  "npm-intellisense.recursivePackageJsonLookup": true,
+  "npm-intellisense.packageSubfoldersIntellisense": false,
+  "path-intellisense.extensionOnImport": true,
+  "path-intellisense.showHiddenFiles": false,
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "htmlEndTagLabels.labelPrefix": "/",
+  "htmlEndTagLabels.labelColor": "#00000000",
+  "gutterpreview.imagePreviewMaxWidth": 300,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "typescript": "npx ts-node"
+  },
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "${GIT_BASH}",
+      "args": [
+        "--login",
+        "-i"
+      ]
+    }
+  },
+  "terminal.integrated.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorBlinking": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.colors": false,
+  "explorer.decorations.badges": false,
+  "explorer.confirmPasteNative": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "chat.tools.terminal.autoApprove": {
+    "npm run dev": true,
+    "npm run build": true,
+    "npm run lint": true,
+    "npm install": true,
+    "git add": true,
+    "git commit": true,
+    "git status": true
+  },
+  "diffEditor.codeLens": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, monospace",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "workbench.settings.applyToAllProfiles": [
+    "editor.fontFamily",
+    "editor.fontSize"
+  ],
+  "workbench.editorAssociations": {
+    "*.vsix": "default"
+  },
+  "editor.inlineSuggest.showToolbar": "never",
+  "editor.hover.enabled": "on",
+  "runtimeMonitor.preserveLog": true,
+  "inlineChat.holdToSpeech": false,
+  "accessibility.voice.autoSynthesize": "off",
+  "accessibility.voice.keywordActivation": "off",
+  "accessibility.voice.speechTimeout": 0,
+  "accessibility.signals.voiceRecordingStarted": {
+    "sound": "off"
+  },
+  "accessibility.signals.voiceRecordingStopped": {
+    "sound": "off"
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.cache/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.git": true
+  }
+}
